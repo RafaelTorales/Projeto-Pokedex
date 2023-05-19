@@ -1,0 +1,67 @@
+@font-face {
+    font-family: PokemonGB;
+    src: url(../Fontes/Pokemon_GB/Pokemon_GB.ttf);
+} 
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'PokemonGB', sans-serif;
+}
+
+body {
+    text-align: center;
+    background: linear-gradient(to bottom, #5fb9ee, #F7FFF7);
+    min-height: 100vh;
+}
+
+main {
+    display: inline-block;
+    margin-top: 2%;
+    padding: 15px;
+    position: relative;
+}
+
+#pokedex {
+    width: 100%;
+    max-width: 600px;
+}
+
+#pokemonImg {
+    position: absolute;
+    bottom: 47%;
+    left: 20%;
+    transform: translate(-10%, 15%);
+    height: 20%;
+}
+
+#pokemonData {
+    position: absolute;
+    color: #1e2327;
+    font-size: clamp(10.3px, 2vw, 13px);
+    top: 39%;
+    right: 11.3%;
+}
+
+#pokemonNome {
+    text-transform: capitalize;
+}
+
+#formulario {
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+    width: 21%;
+}
+
+#caixaPesquisa {
+    width: 100%;
+    padding: 15% 0 15% 6%;
+    border-radius: 13px;
+    outline: none;
+    border: 2px solid #1e2327;
+    font-size: clamp(10.3px, 2vw, 13px);
+    background-color: #d1d1d1;
+    color: #000;
+}
